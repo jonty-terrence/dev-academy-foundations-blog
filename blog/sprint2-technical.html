@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sprint 2 Technical Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="../image/small-logo.png" type="image/x-icon" />
+  </head>
+
+<body>
+    
+
+<div class="container">  
+
+    <div class="nav-header">
+    <nav class="navbar navbar-expand-sm navbar-light bg-white">
+        <a href="https://jonty-terrence.github.io/" class="navbar-brand" ><img src="../image/small-logo.png" alt="green camel"></a>
+        <a href="https://jonty-terrence.github.io/">Jonty's Blog</a>
+       <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-menu">
+       <span class="navbar-toggler-item"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-menu">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="#recent-posts" class="nav-link">Blogs</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <hr>
+    </div>
+
+ 
+    <div class="row">
+        <div class="col-md-12 text-center hero-image-blog">
+            <div class="hero-text">
+                <h1 class="font-weight-bold">Sprint 2 Technical Blog</h1> 
+            <h2>Relative, absolute, and fixed positioning – what's the difference?</h2>
+            
+        </div>  
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 text-left">
+            <h3 class="recent-posts" id="recent-posts">Exploring positioning options in CSS</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 blog-1">
+            
+                
+                <p>CSS positioning gives you the ability to decide where you want to place an element on a web page. It plays a crucial role in the design of a page and understanding it allows you to get things looking how you want them to. 
+
+                There are several different ways to position elements in CSS. The main techniques are called: static, relative, absolute and fixed. Each of these have different properties and the way they are used will impact how elements on a page behave on their own, and how they interact with each other. 
+                
+                This blog post will cover the differences between relative, absolute, and fixed positioning – using quotes and images from experts so that I am not providing any misinformation..</p>
+                
+                <h4>Absolute Positioning</h4>
+                
+                <p>Absolute positioning allows you to place an element anywhere you want on a page. By entering measurements into the top, bottom, left and right attributes (relative to the parent element), an element may be moved anywhere. With absolute positioning, elements are removed from the “flow of elements” which means their movement and location do not interfere with any other elements on the page – they’re simply doing their own thing.</p>
+                
+                <img src="https://s25000.pcdn.co/wp-content/uploads/2012/07/CSS-Tutorial-Absolute-and-Relative-Positioning-300x168.png" alt="absolute positioning">
+                
+                <p>The dog is doing what it (the developer) wants </p>
+                
+                <h4>Fixed Positioning</h4>
+                
+                <p>When elements stay on a page no matter how much you scroll, this is called fixed positioning. It’s a technique that is often used for navigation bars and other content that a developer thinks should remain in a user’s eyeline at all times.</p>
+                
+                <h4>Relative Positioning</h4>
+                
+                <p>Using relative positioning allows you to direct an element to move from where it was placed, into the space of your choosing. This is possible through the top, bottom, left and right specifications, which you can assign to move by metrics like ‘px’ ‘%’ and the like. Elements that are positioned relatively are “relative to themselves”, which means assigning positioning attributes will move them away from where they usually are, into a space of your choosing.</p> 
+                
+                <h6>Example</h6>
+                
+                <p>Giving an element a [left: 5px] positioning attribute will move it 5px to the right of where it is.</p>
+                
+                <img src="https://miro.medium.com/max/910/1*3N2ousp3yth9ovHA8TpDZw.png" alt="relative positioning in css">
+                
+                <p>Green boy is leaving the ranks without affecting anyone else.<p>
+
+                   <h4>A diagram of the differences between relative and absolute positioning:</h4> 
+                   <img src="https://i.stack.imgur.com/PIIYY.jpg" alt="relative and absolute positioning">
+                
+                <h4>Resources on CSS positioning</h4>
+                
+                <p>While researching CSS positioning, I found these resources helpful in understanding the concepts:
+                
+                <ul>
+                   <li><a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">Learn CSS Positioning in Ten Steps</a></li> 
+                   <li><a href="https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ">Absolute, Relative, Fixed Positioning: How Do They Differ? By Chris Coyier</a></li>
+                </ul>
+                </p>
+                
+                
+                
+        </p>
+        </div>
+      
+   
+
+    
+
+   
+
+    
+
+        <footer class="page-footer font-small blue">
+            <div class="footer-copyright text-center py-3">
+                <p>&#x270C; &#x1F335; &#x270C; &#x1F335; &#x270C; &#x1F335; &#x270C; &#x1F335; &#x270C; &#x1F335;</p>
+            </div>
+          </footer>
+
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

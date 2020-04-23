@@ -17,7 +17,7 @@ body {
 .hero-image {
   min-height: 400px;
   width: 100%;
-  background: url('../images/hills.jpg') no-repeat;
+  background: url('../image/hills.jpg') no-repeat;
   background-size: 100% auto;
   align-content: center;
   padding-top: 200px;

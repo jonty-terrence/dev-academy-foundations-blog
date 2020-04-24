@@ -13,6 +13,9 @@ body {
     max-height: 100%;
 }
 
+h4 {
+  padding: 10px 0 20px 0
+}
 
 .hero-image {
   min-height: 400px;
@@ -30,6 +33,30 @@ body {
   min-height: 400px;
   width: 100%;
   background: url('../image/water.jpg') no-repeat;
+  background-size: cover;
+  align-content: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  margin: 5px 15px 5px 10px;
+
+}
+
+.hero-image-blog-cultural-2 {
+  min-height: 400px;
+  width: 100%;
+  background: url('../image/limes.jpg') no-repeat;
+  background-size: cover;
+  align-content: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  margin: 5px 15px 5px 10px;
+
+}
+
+.hero-image-blog-cultural-1 {
+  min-height: 400px;
+  width: 100%;
+  background: url('../image/house.jpg') no-repeat;
   background-size: cover;
   align-content: center;
   padding-top: 200px;

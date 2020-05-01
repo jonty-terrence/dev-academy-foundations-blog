@@ -79,12 +79,29 @@ h4 {
 
 }
 
+.hero-image-blog-technical-3 {
+  min-height: 400px;
+  width: 100%;
+  background: url('../image/rock.jpg') no-repeat;
+  background-size: cover;
+  align-content: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  margin: 5px 15px 5px 10px;
+
+}
+
 .hero-text {
   color: #404040e;
   margin-top; 80px;
   text-align: center;
 }
 
+.hero-text-3 {
+  color: white;
+  margin-top; 80px;
+  text-align: center;
+}
 
   .recent-posts {
   color: white;
@@ -101,8 +118,14 @@ h4 {
   padding: 10px 0 10px 0;
 }
 
+.blog-3 {
+  padding: 10px 0 10px 0;
+}
+
+
 .about {
   padding: 10px 0 30px 0:
+  max-height: 100%;
 }
 
 .footer-break {

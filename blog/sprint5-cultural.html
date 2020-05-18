@@ -7,61 +7,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="../image/small-logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../image/pink-camel.png" type="image/x-icon" />
   </head>
 
 <body>
-    
-
-<div class="container">  
-
     <div class="nav-header">
-    <nav class="navbar navbar-expand-sm navbar-light bg-white">
-        <a href="https://jonty-terrence.github.io/" class="navbar-brand" ><img src="../image/small-logo.png" alt="green camel"></a>
-        <a href="https://jonty-terrence.github.io/">Jonty's Blog</a>
-       <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-menu">
-       <span class="navbar-toggler-item"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="nav-menu">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a href="#recent-posts" class="nav-link">Blogs</a>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://jonty-terrence.github.io/">
+                <img class="logo" src="../image/pink-camel.png" alt="pink camel" width="30" height="30" class="d-inline-block align-top">
+                Jonty's Blog
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#first-blog-row" class="nav-link">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://jonty-terrence.github.io/minesweeper/" class="nav-link">Minesweeper</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Calculator</a>
             </li>
-            <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
-            </li>
-        </ul>
-        </div>
-    </nav>
-    <hr>
+             </ul>
+            </div>
+       </nav>
+   
     </div>
 
- 
-    <div class="row">
-        <div class="col-md-12 text-center blog-4-image">
-            <div class="hero-text-3">
-                <h1 class="font-weight-bold">Sprint 5 Cultural Blog</h1> 
-            <h2>Reflections on Foundations</h2>            
-        </div>  
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <h1 class="font-weight-light">Sprint 5 Technical Blog</h1>
+            <p class="lead">Reflections on Foundations</p>
+          </div>
         </div>
+      </div>
+    </header>
+
+    <div class="col-md-2 mx-auto body-sect">
     </div>
-
-
-    <div class="row">
-        <div class="col-md-12">
-            <hr>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-12 text-left">
-            <h3 class="recent-posts" id="recent-posts">Cultural Blog</h3>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-12 blog-1">
-            <h2> Sprint 5 Cultural Blog </h2>
+    <div class="col-md-8 mx-auto blog-content">
+        <h2> Sprint 5 Cultural Blog </h2>
                  
                 <h3>What are three new things you have learned about yourself and your ego as a result of the core learning?</h3>
                 <p>
@@ -151,35 +144,61 @@
                     I possibly can so I need to ensure I am taking advantage of every opportunity to learn even 
                     if I am uncomfortable.
                 </p>
- 
+    </div>
 
-                
-                
-                
-                
-        
+    <div class="col-md-2 mx-auto">
+    </div>
+
+
+    <footer class="page-footer text-center text-md-left pt-4 footer-background">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-uppercase font-weight-bold mb-4">About me</h5>
+          <p>
+            I'm Jonty from Auckland and I'm currently taking Dev Academy's bootcamp
+          </p>
         </div>
-      
-   
+        <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-4 mx-auto">
+          <h5 class="text-uppercase font-weight-bold mb-4">Projects</h5>
+          <ul class="list-unstyled">
+            <li><a href="#!">Minesweeper</a></li>
+            <li><a href="#!">Calculator</a></li>
+            <li><a href="#!">JavaScript Carnival</a></li>
+            <li><a href="#!">Blogs</a></li>
+          </ul>
+        </div>
+        <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mx-auto">
+          <h5 class="text-uppercase font-weight-bold mb-4">Contact me</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://github.com/jonty-terrence">GitHub</a></li>
+            <li><a href="https://nz.linkedin.com/in/jonty-buchan">Linkedin</a></li>
+            <li><a href="mailto:jontyterrence@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-copyright py-3 text-center bottom-back">
+      <div class="container-fluid">
+        <p>
+          Thanks for dropping by..
+        </p>
+      </div>
+    </div>
+  </footer>
 
-    
 
-   
-
-    
-
-        <footer class="page-footer font-small blue">
-            <div class="footer-copyright text-center py-3">
-                <p>&#x270C; &#x1F335; &#x270C; &#x1F335; &#x270C; &#x1F335; &#x270C; &#x1F335; &#x270C; &#x1F335;</p>
-            </div>
-          </footer>
+</body>
 
 
 
-</div>
+     
+ 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
 </body>
 </html>

@@ -7,113 +7,185 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="../image/small-logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../image/pink-camel.png" type="image/x-icon" />
   </head>
 
 <body>
-    
-
-<div class="container">  
-
     <div class="nav-header">
-    <nav class="navbar navbar-expand-sm navbar-light bg-white">
-        <a href="https://jonty-terrence.github.io/" class="navbar-brand" ><img src="../image/small-logo.png" alt="green camel"></a>
-        <a href="https://jonty-terrence.github.io/">Jonty's Blog</a>
-       <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-menu">
-       <span class="navbar-toggler-item"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="nav-menu">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a href="#recent-posts" class="nav-link">Blogs</a>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://jonty-terrence.github.io/">
+                <img class="logo" src="../image/pink-camel.png" alt="pink camel" width="30" height="30" class="d-inline-block align-top">
+                Jonty's Blog
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#first-blog-row" class="nav-link">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://jonty-terrence.github.io/minesweeper/" class="nav-link">Minesweeper</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Calculator</a>
             </li>
-            <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
-            </li>
-        </ul>
-        </div>
-    </nav>
-    <hr>
-    </div>
-
- 
-    <div class="row">
-        <div class="col-md-12 text-center hero-image-blog-technical-3">
-            <div class="hero-text-3">
-                <h1 class="font-weight-bold">Sprint 3 Technical Blog</h1> 
-            <h2>HTML, CSS, JavaScript and the DOM</h2>
-            
-        </div>  
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-md-12">
-            <hr>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-12 text-left">
-            <h3 class="recent-posts" id="recent-posts">Explaining HTML, CSS, JavaScript and the DOM</h3>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-12 blog-1">
-            <h4>The Difference Between HTML and CSS</h4>
-
-<p>Creating a website – one that appeals to users both structurally and visually – is possible through the use of two languages, HTML and CSS. Together, these languages work together to dictate what is on a webpage and how it is displayed to a user.</p>
-
-<p>HTML is used to deliver the actual content of a website. The components of this file will include your text elements, your sections, your images, your links and other information you want on a page. To describe HTML, people often use a house analogy, with this language likened to foundations, walls, rooms and the roof of the building. </p>
-
-    <p>CSS, on the other hand, is a language that gives a webpage its styling. With CSS, a developer can define the properties of HTML components to make a page look how they want it to. Colour, size, placement and many other characteristics of a website are created in this language. To continue with the house analogy, if HTML is the skeleton of a house, CSS is the decorative features; the carpet, the furniture, the paint and the room sizes. </p>
-
-<h4>Control Flow and Loops</h4>
-
-<p>In programming, control flow is the order that code is carried out by a computer. In JavaScript there are several ways that this order can be dictated by a developer. This will have an impact on the actual output of code and what the user experiences on a website. </p>
-
-    <p>One of these methods is a loop statement. This command tells a computer to continue performing a certain action until reaching a point specified by the developer. For example, a program might tell a computer to express a statement for a certain number of times – this probably wouldn’t be very useful but is just a simple example of what a loop could be used for. </p>
-
-        <p>Real-life situation examples of control flow and looping can make it easier to understand the concept. For example, say you had a bag full of $1 coins and you went to the plant store to buy a cactus. The cactus costs $50, so you need to sort through the bag and pull out 50 coins until you have enough to pay for your plant. If this situation was programmed, control flow would tell you when to start counting and when to hand over your money to their sales assistant so that it was the right amount to pay them. Looping would incur while you were pulling out the coins and adding them together in your hand, until you had enough. </p>
-
-<h4>The DOM</h4>
-
-<p>The DOM (Document Object Model) is the “the data representation of the objects that comprise the structure and content of a document on the web”, according to MDN. It is a depiction of a page that shows page structure, elements, style and content. The DOM is presented as a tree-like structure with branches of nodes representing components of a document. </p>
-
-    <p>A developer may interact with the DOM when applying JavaScript to manipulate components in the way they desire. Through the browser, it is possible to single out specific elements and classes and apply script to them so that they behave in certain ways. </p>
-<img src="https://www.oreilly.com/library/view/javascript-absolute-beginners/9780134498638/graphics/231fig01.jpg" alt="the dom">
-<h4>Explain the difference between accessing data from arrays and objects.</h4>
-<p>Arrays and objects are similar in that they store data inserted in them by a developer. They are also alike in that at times, a developer may want to access the data stored in them. </p>
-<p>The difference between an object and an array is that objects take in properties that are assigned values, while arrays are typically used to represent lists. To access data in an array, you can use the bracket method to return an item. By entering its index number(remember zero-based indexing), you can source its value from the array. </p>
-On the other hand, accessing data from an object is typically done by dot or bracket notation, along with the key of the value you want to return. </p>
-<h4>Explain what functions are and why they are useful</h4>
-<p>A lot of the time, developers will want to reuse the same snippets of code repeatedly. Rather than re-writing this each time, it’s possible to use a function to shorten code. </p>
-<p>When the function is called, the computer will execute the code stored within the function!</p>
-
-    </div>
-      
-   
-
-    
-
-   
-
-    
-
-        <footer class="page-footer font-small blue">
-            <div class="footer-copyright text-center py-3">
-                <p>&#x270C; &#x1F335; &#x270C; &#x1F335; &#x270C; &#x1F335; &#x270C; &#x1F335; &#x270C; &#x1F335;</p>
+             </ul>
             </div>
-          </footer>
+       </nav>
+   
+    </div>
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <h1 class="font-weight-light">Sprint 3 Technical Blog</h1>
+            <p class="lead">HTML, CSS, JavaScript and the DOM</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="col-md-2 mx-auto body-sect">
+    </div>
+    <div class="col-md-8 mx-auto blog-content">
+        <h4>The Difference Between HTML and CSS</h4>
+        <p>
+            Creating a website – one that appeals to users both structurally and visually – is possible through 
+            the use of two languages, HTML and CSS. Together, these languages work together to dictate what is 
+            on a webpage and how it is displayed to a user.
+        </p>       
+        <p>
+            HTML is used to deliver the actual content of a website. The components of this file will include your 
+            text elements, your sections, your images, your links and other information you want on a page. 
+            To describe HTML, people often use a house analogy, with this language likened to foundations, walls, 
+            rooms and the roof of the building. 
+        </p>      
+        <p>
+            CSS, on the other hand, is a language that gives a webpage its styling. With CSS, a developer can 
+            define the properties of HTML components to make a page look how they want it to. Colour, size, 
+            placement and many other characteristics of a website are created in this language. To continue with 
+            the house analogy, if HTML is the skeleton of a house, CSS is the decorative features; the carpet, the 
+            furniture, the paint and the room sizes.
+        </p>       
+        <h4>Control Flow and Loops</h4>      
+        <p>
+            In programming, control flow is the order that code is carried out by a computer. In JavaScript there 
+            are several ways that this order can be dictated by a developer. This will have an impact on the actual 
+            output of code and what the user experiences on a website. 
+        </p>     
+        <p>
+            One of these methods is a loop statement. This command tells a computer to continue performing a certain 
+            action until reaching a point specified by the developer. For example, a program might tell a computer to 
+            express a statement for a certain number of times – this probably wouldn’t be very useful but is just a 
+            simple example of what a loop could be used for. 
+        </p>      
+        <p>
+            Real-life situation examples of control flow and looping can make it easier to understand the concept. 
+            For example, say you had a bag full of $1 coins and you went to the plant store to buy a cactus. 
+            The cactus costs $50, so you need to sort through the bag and pull out 50 coins until you have enough 
+            to pay for your plant. If this situation was programmed, control flow would tell you when to start 
+            counting and when to hand over your money to their sales assistant so that it was the right amount to 
+            pay them. Looping would incur while you were pulling out the coins and adding them together in your 
+            hand, until you had enough. 
+        </p>     
+        <h4>The DOM</h4>      
+        <p>
+            The DOM (Document Object Model) is the “the data representation of the objects that comprise the 
+            structure and content of a document on the web”, according to MDN. It is a depiction of a page that 
+            shows page structure, elements, style and content. The DOM is presented as a tree-like structure with 
+            branches of nodes representing components of a document. 
+        </p>      
+        <p>
+            A developer may interact with the DOM when applying JavaScript to manipulate components in the way they 
+            desire. Through the browser, it is possible to single out specific elements and classes and apply script 
+            to them so that they behave in certain ways. 
+        </p>
+        <img src="https://www.oreilly.com/library/view/javascript-absolute-beginners/9780134498638/graphics/231fig01.jpg" alt="the dom">
+        <h4>Explain the difference between accessing data from arrays and objects.</h4>
+        <p>
+            Arrays and objects are similar in that they store data inserted in them by a developer. They are also 
+            alike in that at times, a developer may want to access the data stored in them. 
+        </p>
+        <p>
+            The difference between an object and an array is that objects take in properties that are assigned 
+            values, while arrays are typically used to represent lists. To access data in an array, you can use 
+            the bracket method to return an item. By entering its index number(remember zero-based indexing), 
+            you can source its value from the array. 
+        </p>
+        <p>
+            On the other hand, accessing data from an object is typically done by dot or bracket notation, 
+            along with the key of the value you want to return. 
+        </p>
+        <h4>Explain what functions are and why they are useful</h4>
+        <p>
+            A lot of the time, developers will want to reuse the same snippets of code repeatedly. Rather than 
+            re-writing this each time, it’s possible to use a function to shorten code. 
+        </p>
+        <p>
+            When the function is called, the computer will execute the code stored within the function!
+        </p>
+
+    </div>
+
+    <div class="col-md-2 mx-auto">
+    </div>
+
+
+    <footer class="page-footer text-center text-md-left pt-4 footer-background">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-uppercase font-weight-bold mb-4">About me</h5>
+          <p>
+            I'm Jonty from Auckland and I'm currently taking Dev Academy's bootcamp
+          </p>
+        </div>
+        <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-4 mx-auto">
+          <h5 class="text-uppercase font-weight-bold mb-4">Projects</h5>
+          <ul class="list-unstyled">
+            <li><a href="#!">Minesweeper</a></li>
+            <li><a href="#!">Calculator</a></li>
+            <li><a href="#!">JavaScript Carnival</a></li>
+            <li><a href="#!">Blogs</a></li>
+          </ul>
+        </div>
+        <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mx-auto">
+          <h5 class="text-uppercase font-weight-bold mb-4">Contact me</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://github.com/jonty-terrence">GitHub</a></li>
+            <li><a href="https://nz.linkedin.com/in/jonty-buchan">Linkedin</a></li>
+            <li><a href="mailto:jontyterrence@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-copyright py-3 text-center bottom-back">
+      <div class="container-fluid">
+        <p>
+          Thanks for dropping by..
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
 
 
 
-</div>
+     
+ 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
 </body>
 </html>

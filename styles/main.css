@@ -1,217 +1,63 @@
 body {
   font-family: 'Fira Sans', sans-serif;
-  color: #404040;
-  font-weight:  
+  align-content: center;
+}
+
+
+.navbar-nav > li > a, .navbar-brand {
+  padding-top:5px !important; padding-bottom:0 !important;
+  height: 35px;
+}
+.navbar {min-height:30px !important;}
+
+.container1 {
+  max-width: 90%;
   box-sizing: border-box;
-  width: 100%;
-  border: solid #ffffff 10px;
-  padding: 5px;
+  margin: auto;
 }
 
-  img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-h4 {
-  padding: 10px 0 20px 0
-}
-
-h4 {
-  padding: 10px 0 20px 0
-}
-
-h3 {
-  padding: 10px 0 20px 0
-}
-
-h2 {
-  padding: 10px 0 20px 0
-}
-
-
-
-.hero-image {
-  min-height: 400px;
-  width: 100%;
-  background: url('../image/hills.jpg') no-repeat;
+.masthead {
+  height: 50vh;
+  max-height: 20%;
+  background-color: #ecb7bf; 
   background-size: cover;
-  align-content: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  margin: 5px 15px 5px 10px;
-
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
 }
 
-.hero-image-blog {
-  min-height: 400px;
-  width: 100%;
-  background: url('../image/water.jpg') no-repeat;
-  background-size: cover;
-  align-content: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  margin: 5px 15px 5px 10px;
-
-}
-
-.hero-image-blog-cultural-2 {
-  min-height: 400px;
-  width: 100%;
-  background: url('../image/limes.jpg') no-repeat;
-  background-size: cover;
-  align-content: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  margin: 5px 15px 5px 10px;
-
-}
-
-.hero-image-blog-cultural-1 {
-  min-height: 400px;
-  width: 100%;
-  background: url('../image/house.jpg') no-repeat;
-  background-size: cover;
-  align-content: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  margin: 5px 15px 5px 10px;
-
-}
-
-}
-
-.hero-image-blog-cultural-3 {
-  min-height: 400px;
-  width: 100%;
-  background: url('../image/plant.jpg') no-repeat;
-  background-size: cover;
-  align-content: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  margin: 5px 15px 5px 10px;
-
-}
-
-.hero-image-blog-technical-3 {
-  min-height: 400px;
-  width: 100%;
-  background: url('../image/rock.jpg') no-repeat;
-  background-size: cover;
-  align-content: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  margin: 5px 15px 5px 10px;
-
-}
-
-.hero-image-blog-cultural-4 {
-  min-height: 400px;
-  width: 100%;
-  background: url('../image/moon.jpg') no-repeat;
-  background-size: cover;
-  align-content: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  margin: 5px 15px 5px 10px;
-
-}
-
-.blog-4-image {
-  min-height: 400px;
-  width: 100%;
-  background: url('../image/bauhaus.jpg') no-repeat;
-  background-size: cover;
-  align-content: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  margin: 5px 15px 5px 10px;
-
-}
-
-.hero-text {
-  color: #404040e;
-  margin-top; 80px;
+h1 {
   text-align: center;
 }
 
-.hero-text-3 {
-  color: white;
-  margin-top; 80px;
+.hero-p {
   text-align: center;
 }
 
-  .recent-posts {
-  color: white;
-  background-color: #3FC37F;
-  padding: 10px 10px 10px 0px;
-  width: 100%
-}
-
-.blog-1 {
-  padding: 10px 0 10px 0;
-}
-
-.blog-2 {
-  padding: 10px 0 10px 0;
-}
-
-.blog-3 {
-  padding: 10px 0 10px 0;
-}
-
-
-.about {
-  padding: 10px 0 30px 0:
-  max-height: 100%;
-}
-
-.footer-break {
-  color: 3FC37F;
-  background-color: #3FC37F;
-  padding: 10px 10px 10px 20px;
-  width: 100%
-}
-.nav-header {
-  padding: 10px;
-  margin: 0 5% 0% 5%;
-}
-
-.navbar-nav li a img {
-padding-top:15px !important; 
-padding-bottom:15px !important;
-}
-
-.navbar {
-  min-height:32px !important
-}
-.navbar-brand {
-  height: 50px !important;
-  width: 50px !important;
-}
-
-.blog-title {
-  display: inline-block;
-  padding: 10px 10px 10px 10px
-}
-
-.limes {
-  padding: 10px 0 10px 0;
-}
-.tech-blog {
-  display: inline-block;
-  padding: 10%;
-}
-.learn-reflect {
-  display: inline-block;
-  padding: 10%;
-}
-
-.about-section {
-  display: inline-block;
-  padding: 10%;
+.bottom-row {
+  padding: 0px, 0px, 10px, 0px;
 }
 
 a {
-  color: #404040; 
+  color: white;
 }
+
+h4 {
+  padding-bottom: 10px;
+}
+
+.footer-background {
+  background-color: #ecb7bf;
+  color: white;
+}
+
+.blog-content {
+  text-align: left;
+  padding: 30px, 0px, 30px, 0px;
+}
+
+.body-sect {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+

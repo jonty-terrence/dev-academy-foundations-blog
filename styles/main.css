@@ -19,7 +19,7 @@ body {
 .masthead {
   height: 50vh;
   max-height: 20%;
-  background-color: #ecb7bf; 
+  background: linear-gradient(180deg, rgba(236,183,191,1) 45%, rgba(255,255,255,1) 100%);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -61,3 +61,36 @@ h4 {
   padding-bottom: 50px;
 }
 
+
+@media (max-width: 1200px) {
+ body {
+   min-width: 100%
+ }
+
+}
+
+@media (max-width: 768px) {
+  .card-text {
+    display: none;
+  }
+  h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .dom-image {
+    width: 90%;
+  }
+  h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .blog-content {
+    text-align: center; 
+  }
+  .masthead {
+    background: rgba(236,183,191,1);
+}
+}
